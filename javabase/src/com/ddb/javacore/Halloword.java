@@ -14,6 +14,23 @@ public class Halloword {
         // 这里输出消息到控制台
 		System.out.println("Hello world!!!");
 
+		/*int money;
+		money = 1000;*/
+		int money = 1000;
+		System.out.println("你的money值为" + money);
+		
+		final double PI = 3.1415926;
+		System.out.println("输出的PI的值为；" + PI);
+		final String NAME = "JACK";
+		System.out.println("输出的NAME的值为；" + NAME);
+		
+		final char MALE = 'M',FMALE = 'F';
+		System.out.println("输出的MALE的值为；" + MALE);
+		System.out.println("输出的FMALE的值为；" + FMALE);
+		final int LEFT;
+		LEFT = 1;
+	    //LEFT = 2;常量只能赋值一次
+		System.out.println("输出的LEFT的值为；" + LEFT);
 	}
 
 }
