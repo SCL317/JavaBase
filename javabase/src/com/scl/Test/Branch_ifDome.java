@@ -1,6 +1,6 @@
 package com.scl.Test;
 
-import java.util.Scanner;
+import java.util.Scanner;//可以通过Ctrl+shift+o  自动打包形成；
 
 public class Branch_ifDome {
 

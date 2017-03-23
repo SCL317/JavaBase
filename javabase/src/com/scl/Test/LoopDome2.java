@@ -61,6 +61,7 @@ public class LoopDome2 {
 
 		/*// while loop
 		whileDemo(num);
+		
 
 		// do while
 		dowhileDemo(num);
