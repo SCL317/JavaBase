@@ -23,8 +23,6 @@ public class Jia {
 		}
 		System.out.println("2叠加的和： " + i);
 		
-		
-		int x=0
 
 	}
 
