@@ -1,4 +1,4 @@
-package com.scl.Test;
+package com.scl.Test.xunhuan;
 
 public class JiuJiu {
 

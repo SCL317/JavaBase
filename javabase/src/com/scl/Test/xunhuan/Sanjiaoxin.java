@@ -1,4 +1,4 @@
-package com.scl.Test;
+package com.scl.Test.xunhuan;
 //输出一个实心的等腰三角形
 
 public class Sanjiaoxin {
@@ -22,6 +22,8 @@ public class Sanjiaoxin {
 			System.out.println();	
 			z--;
 		}
+		System.out.println("--------------");
+		
 		
 		//正三角
 		int c=1;
@@ -32,6 +34,20 @@ public class Sanjiaoxin {
 			System.out.println();	
 			c++;
 		}
+		
+		
+		//正三角
+				int C=1;
+				for(int A=0;A<9;A++){
+					for(int B=0;B<9;B++){
+						System.out.print(" ");	
+					if(){
+						System.out.print("*");	
+					}
+					}
+					System.out.println();	
+					c++;
+				}
 	}
 
 }
