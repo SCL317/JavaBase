@@ -36,18 +36,8 @@ public class Sanjiaoxin {
 		}
 		
 		
-		//正三角
-				int C=1;
-				for(int A=0;A<9;A++){
-					for(int B=0;B<9;B++){
-						System.out.print(" ");	
-					if(){
-						System.out.print("*");	
-					}
-					}
-					System.out.println();	
-					c++;
-				}
 	}
-
 }
+
+
+
