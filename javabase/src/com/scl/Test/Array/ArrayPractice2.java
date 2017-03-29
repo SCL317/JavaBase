@@ -3,7 +3,7 @@ package com.scl.Test.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ArrayPractice {
+public class ArrayPractice2 {
 
 	public static void main(String[] args) {
 		int[] score = new int[10];
@@ -21,31 +21,33 @@ public class ArrayPractice {
 		System.out.println("这些数字的平均数为: " + avg);
         
 		//升序排列
+		int i =0;
 		Arrays.sort(score);// 这个是调用系统里的排序方法  //
 		System.out.println("这些数字的升序为: " );
-		for (int i = 0; i < score.length; i++) {
-			System.out.println("a["+i+"]"+score[i]);
+		for (i = 0; i < score.length; i++) {
+			System.out.println("score["+i+"]"+score[i]);
 		}
-		
+		System.out.println("这时候的最大值在第"+i+"位");
 		//降序排列
-		
-			
-		
+		for (; i >0; i--) {
+			System.out.println("score["+i+"]"+score[i]);
+		}
+	
 		//最大值
 		int max=0;
 		//最好应该将这个int m=a[0];随意赋值输入的数据
-		for (int i = 0; i < score.length; i++) {
-		if(max < score[i]){
-			max = score[i];
+		for (int b = 0; b < score.length; b++) {
+		if(max < score[b]){
+			max = score[b];
 			}
 		}System.out.println("这里面最大值为： " +max);
 		
 		//最小值
 		int min=0;
 		//这边这样定义不好应为如果输入的值为负数比较最小值会出现问题；最好应该将这个int min=a[0];随意赋值输入的数据
-		for (int i = 0; i < score.length; i++) {
-		if(min > score[i]){
-			max = score[i];
+		for (int c = 0; c < score.length; c++) {
+		if(min > score[c]){
+			max = score[c];
 			}
 		}System.out.println("这里面最小值为： " +min);
 
