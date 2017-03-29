@@ -15,9 +15,11 @@ public class Chengji {
 	}
 	
 	public static void main(String[] args) {
-		int Sum = Chengji.sum();//类名.方法() ? ? ?
+		int Sum = Chengji.sum();//类名.方法()   只要这方法是static修饰
 		System.out.println("" +Sum);
 
 	}
 
+	
+	
 }
