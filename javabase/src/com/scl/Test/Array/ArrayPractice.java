@@ -27,7 +27,7 @@ public class ArrayPractice {
 			System.out.println("a["+i+"]"+score[i]);
 		}
 		
-		//降序排列
+		//降序排列详细见ArrayPractice2正式版
 		
 			
 		
