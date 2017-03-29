@@ -30,8 +30,8 @@ public class ArrayPractice2 {
 		System.out.println("这时候的最大值在第"+i+"位");//这里通过调用最大数时i的值
 		//降序排列
 		for (; i >0; i--) {
-			System.out.println("score["+(i-1)+"]"+score[i-1]);//因为是i++  先使用后自增所以真实的能使用应该为i-1
-		}
+			System.out.println("score["+(i-1)+"]"+score[i-1]);
+		}//因为是i++  先使用后自增所以真实的能使用应该为i-1
 	
 		//最大值
 		int max=0;
