@@ -27,11 +27,15 @@ public class ArrayPractice {
 			System.out.println("a[" + i + "]" + score[i]);
 		}
 
-		// 降序排列详细见ArrayPractice2正式版
+		// 降序排列
+		System.out.println("这些数字的降序排列序为: ");
+		for (int i = (score.length - 1); i > 0; i--) {
+			System.out.println("score[" + i + "]" + score[i]);
+		} // 这里需要晓得score.length的具体的定义和数值 
 
 		// 最大值
-		int max = 0;
-		// 最好应该将这个int m=a[0];随意赋值输入的数据
+		int max =score[0];
+		// 最好应该将这个int m=score[0];随意赋值输入的数据
 		for (int i = 0; i < score.length; i++) {
 			if (max < score[i]) {
 				max = score[i];
@@ -40,8 +44,9 @@ public class ArrayPractice {
 		System.out.println("这里面最大值为： " + max);
 
 		// 最小值
-		int min = 0;
-		// 这边这样定义不好应为如果输入的值为负数比较最小值会出现问题；最好应该将这个int min=a[0];随意赋值输入的数据
+		int min =score[0];
+		/*这边这样定义不好应为如果输入的值为负数或者小于0的时候会出问题比较最小值会出现问题；
+		最好应该将这个int min=score[0];随意赋值输入的数据*/
 		for (int i = 0; i < score.length; i++) {
 			if (min > score[i]) {
 				max = score[i];

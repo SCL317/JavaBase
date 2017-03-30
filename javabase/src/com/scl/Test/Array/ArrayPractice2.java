@@ -1,5 +1,8 @@
 package com.scl.Test.Array;
-
+/**
+ * 这和ArrayPractica相比就有很多不完善的地方需要改进 
+ * 可以作为参考过程 
+ */
 import java.util.Arrays;
 import java.util.Scanner;
 

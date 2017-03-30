@@ -7,7 +7,6 @@ public class Exception {
 
 	public static void main(String[] args) {
 		System.out.println("这里返回的值为: " + exc());
-
 	}
 
 	public static int exc() {
