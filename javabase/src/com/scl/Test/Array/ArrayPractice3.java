@@ -1,5 +1,7 @@
 package com.scl.Test.Array;
 
+import java.util.Scanner;
+
 public class ArrayPractice3 {
 
 	public static void main(String[] args) {
@@ -39,6 +41,14 @@ public class ArrayPractice3 {
 			System.out.println("score[" + i + "]" + score[i]);
 
 		}
+		
+		//查找数组中的某个数并显示其下标
+		Scanner input = new Scanner(System.in);
+		System.out.println("这里输入需要查找的数： ");
+		int a = input.nextInt();
+		for (int i = 0; i < score.length; i++) {
+			score[i]==a;
+		}System.out.println("此时");
 
 	}
 
