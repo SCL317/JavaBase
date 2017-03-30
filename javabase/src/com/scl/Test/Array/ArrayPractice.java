@@ -19,35 +19,35 @@ public class ArrayPractice {
 
 		avg = (double) sum / score.length;
 		System.out.println("这些数字的平均数为: " + avg);
-        
-		//升序排列
-		Arrays.sort(score);// 这个是调用系统里的排序方法  //
-		System.out.println("这些数字的升序为: " );
+
+		// 升序排列
+		Arrays.sort(score);// 这个是调用系统里的排序方法 //
+		System.out.println("这些数字的升序为: ");
 		for (int i = 0; i < score.length; i++) {
-			System.out.println("a["+i+"]"+score[i]);
+			System.out.println("a[" + i + "]" + score[i]);
 		}
-		
-		//降序排列详细见ArrayPractice2正式版
-		
-			
-		
-		//最大值
-		int max=0;
-		//最好应该将这个int m=a[0];随意赋值输入的数据
+
+		// 降序排列详细见ArrayPractice2正式版
+
+		// 最大值
+		int max = 0;
+		// 最好应该将这个int m=a[0];随意赋值输入的数据
 		for (int i = 0; i < score.length; i++) {
-		if(max < score[i]){
-			max = score[i];
+			if (max < score[i]) {
+				max = score[i];
 			}
-		}System.out.println("这里面最大值为： " +max);
-		
-		//最小值
-		int min=0;
-		//这边这样定义不好应为如果输入的值为负数比较最小值会出现问题；最好应该将这个int min=a[0];随意赋值输入的数据
+		}
+		System.out.println("这里面最大值为： " + max);
+
+		// 最小值
+		int min = 0;
+		// 这边这样定义不好应为如果输入的值为负数比较最小值会出现问题；最好应该将这个int min=a[0];随意赋值输入的数据
 		for (int i = 0; i < score.length; i++) {
-		if(min > score[i]){
-			max = score[i];
+			if (min > score[i]) {
+				max = score[i];
 			}
-		}System.out.println("这里面最小值为： " +min);
+		}
+		System.out.println("这里面最小值为： " + min);
 
 	}
 

@@ -15,10 +15,10 @@ public class Array {
 		int sum = 0;
 		Scanner input = new Scanner(System.in);
 		System.out.println("输入数值： ");
-		
+
 		for (int i = 0; i < a.length; i++) {
 			a[i] = input.nextInt();
-			sum = sum + a[i];	
+			sum = sum + a[i];
 		}
 		System.out.println("这个数字的和 ： " + sum);
 
