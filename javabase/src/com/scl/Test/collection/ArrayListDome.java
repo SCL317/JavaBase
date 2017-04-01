@@ -44,6 +44,10 @@ public class ArrayListDome {
 	//list.isEmpty();  判断集合是否为空
 	System.out.println("list.isEmpty() =" +list.isEmpty());
 	
+	//list.set(1, "是（1）"); 这个是替换指定位置上的数据；
+	System.out.println("list.set(1, 是（1）) =" +list.set(1, "是（1）"));
+	System.out.println("list.set(1, 是（1）)后的list " +list);
+	
 	list.remove(1); //这里是remove移除了指定的数据 原有的集合会改变
 	System.out.println("这里输出的list.remove(1)后的结果=" +list.remove(1));
 	System.out.println("这里输出的list.remove(1)后的list" +list);
@@ -53,7 +57,7 @@ public class ArrayListDome {
 	System.out.println("这里输出的list.get(1)后的list" +list);
 	
     list.contains("集");  //这是检查集合中是否存在某个变量
-    list.contains("哈");
+    list.contains("哈");  
 	System.out.println("这里是检查集合里存在“集”： " +list.contains("集"));
 	System.out.println("这里是检查集合里存在“哈”： " +list.contains("哈"));
 	
