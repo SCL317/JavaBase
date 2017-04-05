@@ -4,10 +4,10 @@ public class Dbsan {
 
 	public static void main(String[] args) {
 		//等边三角
-		int C=18;
-		for(int A=1;A<C;A++){
-			for(int B=1;B<C*2-1;B++){
-			if((B>=C-(A-1))&&(B<=C+(A-1))){
+		int h=9;
+		for(int i=1;i<=h;i++){
+			for(int j=1;j<=h*2-1;j++){
+			if((j>=h-(i-1))&&(j<=h+(i-1))){
 				System.out.print("*");}		
 			else {
 				System.out.print(" ");}
