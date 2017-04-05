@@ -5,28 +5,25 @@ import java.util.Scanner;
 
 //空心等腰三角
 public class Dbsan4 {
-
 	public static void main(String[] args) {
-
 		System.out.println("这里返回結果为: " + exc());
 	}
-
-	public static int exc() {
+	public static String exc() {
+		Scanner input = new Scanner(System.in);
 		try {
-			Scanner input = new Scanner(System.in);
 			System.out.println("请输入等腰三角形的高： ");
 			int h = input.nextInt(); // 确定等腰三角形的高同时这个高充当这个等腰三角形中间的数；
 			// 这里是确定这个高不能小于0；
-			if (h < 0) {
-				System.out.println("请输入h不能为负数请重新输入。");
-				return 0;
+			for(;h <0;) {
+				System.out.println("请输入等腰三角形的高不能为负数请重新输入。");
+				h = input.nextInt();
 			}
 			System.out.println("请输入等边三角形的水平位移数： ");
 			int r = input.nextInt();
 			// 这边是确定位移的数不能为负数；
-			if (r < 0) {
-				System.out.println("请输入r不能为负数请重新输入。");
-				return 1;
+			for (;r <0;) {
+				System.out.println("请输入水平位移数不能为负数请重新输入。");
+				r = input.nextInt();
 			}
 			for (int i = 1; i <= h; i++) {
 				// 这是控制行第几行第几行；
@@ -51,14 +48,15 @@ public class Dbsan4 {
 			}
 		} catch (InputMismatchException ime) {
 			System.out.println("这里出现InputMismatchException异常");
-			return 2;
+			System.out.println("请输入正常的数值");
+			exc();
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.out.println("这里出现Exception异常");
-			return 3;
-		} finally {
-			System.out.println("程序运行到这里结束了");
+			System.out.println("请输入正常的数值");
+			exc();
 		}
-		return 4;
+		return "正确";
+		
 	}
 }

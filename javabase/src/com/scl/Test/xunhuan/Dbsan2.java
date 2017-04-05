@@ -38,7 +38,15 @@ public class Dbsan2 {
 				System.out.println("请输入2個正确的数值：");
 				try {
 					h = input.nextInt();
+					if (h < 0) {
+						System.out.println("请输入h不能为负数请重新输入。");
+						h = input.nextInt();
+					}
 					r = input.nextInt();
+					if (r < 0) {
+						System.out.println("请输入r不能为负数请重新输入。");
+						r = input.nextInt();
+					}
 					isEx =false;
 				} catch (Exception e) {
 					System.out.println("请重新输入2個正确的数值：");
