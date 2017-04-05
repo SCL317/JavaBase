@@ -47,9 +47,10 @@ public class Dbsan4 {
 				System.out.println();
 			}
 		} catch (InputMismatchException ime) {
+			ime.printStackTrace();
 			System.out.println("这里出现InputMismatchException异常");
 			System.out.println("请输入正常的数值");
-			exc();
+			exc();//通过调用静态的类方法来重新计算
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.out.println("这里出现Exception异常");
