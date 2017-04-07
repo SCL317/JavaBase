@@ -3,7 +3,7 @@ package com.scl.Test.xunhuan;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-//空心等腰三角
+//可平移的空心等腰三角
 public class Dbsan4 {
 	public static void main(String[] args) {
 		System.out.println("这里返回結果为: " + exc());
