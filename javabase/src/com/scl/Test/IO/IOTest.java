@@ -11,6 +11,7 @@ public class IOTest {
 		FileWriter fw =new FileWriter("IOtest.txt");
 		//FileReader fr =new FileReader("fw");
 		fw.write("abcdefg");//这里是往fw文件里写入数据；
-		fw.flush();
-	}
+		//fw.flush();这里是刷新,最好关闭处理免得占用系统资源
+		fw.close();
+		}
 }
