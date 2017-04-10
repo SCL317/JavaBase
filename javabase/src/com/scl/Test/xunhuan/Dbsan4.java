@@ -38,7 +38,8 @@ public class Dbsan4 {
 							System.out.print(" ");
 							//这里是输出最后一行的偏移；
 						}
-					} else if ((j == h - (i - 1) + r) || (j == h + (i - 1) + r)) {// 这个是确定打出等腰三角形的边；
+					} else if ((j == h - (i - 1) + r) || (j == h + (i - 1) + r)) {
+						// 这个是确定打出等腰三角形的边；
 						System.out.print("*");
 					} else {
 						System.out.print(" ");

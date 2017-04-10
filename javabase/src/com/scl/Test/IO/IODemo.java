@@ -5,7 +5,7 @@ import java.io.File;
 public class IODemo {
 
 	public static void main(String[] args) {
-	  File f1 = new File("a.jpg");
+	  File f1 = new File("aaa.txt");
 	  File f2 = new File("D./temp/");
 	  
 	  System.out.println("Name: " +f1.getName());

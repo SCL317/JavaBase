@@ -9,6 +9,7 @@ public class TestFileCharacterStream {
 
 	public static void main(String[] args) {
 		try {
+			FileWriter fw1 = new FileWriter("myInfo.txt");
 			FileReader fr = new FileReader("myInfo.txt");
 			FileWriter fw = new FileWriter("myInfoBack.txt");
 			int read = fr.read();

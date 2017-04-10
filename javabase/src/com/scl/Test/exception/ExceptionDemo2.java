@@ -6,8 +6,14 @@ public class ExceptionDemo2 {
 
 	public static void main(String[] args) {
 
-		try {
-			exthrow(-5);
+		try {int age=-5;
+			if (age<0) {
+				//System.out.println("这里的age不能小于0");
+				throw new ByZeroException("这里的age不能小于0");
+			}else{
+				System.out.println("这里的age有效");
+			}		
+		
 		} catch (ByZeroException bye) {
 			bye.printStackTrace();
 		}
@@ -25,13 +31,7 @@ public class ExceptionDemo2 {
 			return num2;
 	}*/
 	
-	public static void exthrow(int age)throws ByZeroException{
+
 		
-		if (age<0) {
-			//System.out.println("这里的age不能小于0");
-			throw new ByZeroException("这里的age不能小于0");
-		}else{
-			System.out.println("这里的age有效");
-		}		
-	}
+		
 }
