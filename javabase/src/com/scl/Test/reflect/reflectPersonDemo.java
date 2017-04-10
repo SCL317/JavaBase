@@ -16,7 +16,7 @@ public class reflectPersonDemo {
 		//然后通过选中Person这个类明右击Copy Qualified Name进行直接拷贝路径
 		
 		//获取这类里的属性
-		Field fld =c.getDeclaredField("age");
+		Field fld =c.getField("age");
 		//这里是获取这个类里的方法
 		Method mod =c.getMethod("display");//这里调用的是无参的方法
 		Method mod2 =c.getMethod("display", String.class,int.class,boolean.class);
