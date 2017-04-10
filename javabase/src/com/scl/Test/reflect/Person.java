@@ -16,7 +16,7 @@ public class Person {
 	}
 	
 	public Person(boolean married) {
-		super();
+		
 		this.married = married;
 	}
 
@@ -29,6 +29,14 @@ public class Person {
 	public void display(){
 		 System.out.println(name+" "+age+" "+married);
 	}
+	
+	public void display(String str,int i, boolean flag){
+		name = str;
+		age = i;
+		married = flag;
+		 System.out.println(name+" "+age+" "+married);
+	}
+
 
 	public static void main(String[] args) {
 		Person person = new Person("Rose",20,false);
