@@ -24,7 +24,7 @@ public class ReflectDemo {
 		//getSimpleName()---返回源代码中给出的底层类的简称。
 		for (Field field : fs) {
 			
-			//通过foreach遍历获取所有的属性
+			//通过foreach遍历来获取
 			sb.append("\t");//制表符
 			
 			sb.append(Modifier.toString(field.getModifiers())+" ");

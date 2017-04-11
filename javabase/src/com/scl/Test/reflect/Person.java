@@ -1,5 +1,7 @@
 package com.scl.Test.reflect;
 
+import com.scl.Test.Annotation.myAnnotation;
+
 public class Person {
 	private String name = "Jack";
 	private int age = 35;
