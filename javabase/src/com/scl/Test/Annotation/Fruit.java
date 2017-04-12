@@ -23,7 +23,9 @@ class Orange extends Fruit {
 class Apple extends Fruit {
 	@Override
 	// @Override 如果将@Override注释掉则系统不会报错 应为没有@Override进行判断
-	public void displayname() {
+	//public void displayname() 
+	public void displayName() 
+	{
 		// 这里的方法父类中没有
 		System.out.println("水果的名字是：苹果");
 	}

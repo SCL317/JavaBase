@@ -1,9 +1,9 @@
 package com.scl.Test.Annotation;
 
-import com.scl.Test.Annotation.myAnnotation;
+import com.scl.Test.Annotation.MyAnnotation;
 
 public class Person {
-	@myAnnotation(value="张三")
+	@MyAnnotation(value="张三")
 	private String name = "Jack";
 	private int age = 35;
 	private char sex = '男';

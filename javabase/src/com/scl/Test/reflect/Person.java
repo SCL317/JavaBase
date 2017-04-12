@@ -1,6 +1,6 @@
 package com.scl.Test.reflect;
 
-import com.scl.Test.Annotation.myAnnotation;
+import com.scl.Test.Annotation.MyAnnotation;
 
 public class Person {
 	private String name = "Jack";
