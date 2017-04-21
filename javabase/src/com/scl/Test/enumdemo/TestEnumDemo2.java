@@ -37,7 +37,7 @@ public class TestEnumDemo2 {
 		System.out.println("\n"+"--------------"+"\n");//分隔
 		
 		//枚举实现接口
-		Behaviour behaviour =Color.RED;
+		Behaviour behaviour =Color.RED;                                                                      
 		//Behaviour behaviour2 =new Color("绿色", 2);
 		//不能被实例化,因为枚举的构造函数是只能是私有private，所以这边的构造函数不能被new实例化调用
 		behaviour.print();
