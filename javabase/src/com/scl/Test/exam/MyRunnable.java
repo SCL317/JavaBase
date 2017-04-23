@@ -25,10 +25,12 @@ public class MyRunnable implements Runnable{
 	public void run() {
 		try {
 			
-			Class class1 =Class.forName("com.scl.Test.exam.JiuJiu");
+			Class<?> class1 =Class.forName("com.scl.Test.exam.JiuJiu2");
 			Method mod = class1.getMethod("display");
+			Method mod1 = class1.getMethod("display1");
 			Object o = class1.newInstance();
             mod.invoke(o);
+            mod1.invoke(o);
     
 		} catch (Exception e) {
 			e.printStackTrace();

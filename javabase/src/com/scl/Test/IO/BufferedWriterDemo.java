@@ -29,6 +29,7 @@ public class BufferedWriterDemo {
 		
 		//这里关闭缓冲区，这个其实关闭的就是被缓冲的流对象
 		bw.close();
+		fw.close();
 
 	}
 

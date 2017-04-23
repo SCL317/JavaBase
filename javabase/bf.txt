@@ -1,2 +1,2 @@
 这个是buffered的演示
-这是通过调用方法换行
+这是通过调用BufferedWriter里面的方法换行
