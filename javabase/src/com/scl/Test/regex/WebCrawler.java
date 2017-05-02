@@ -42,7 +42,7 @@ public class WebCrawler {
 
 		while ((line = bReader.readLine()) != null) {
 			Matcher m = p.matcher(line);
-			while (m.find()) {
+			while (m.find()) {	
 				list.add(m.group());
 			}
 		}

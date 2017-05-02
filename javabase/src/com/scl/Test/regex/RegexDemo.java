@@ -45,9 +45,9 @@ public class RegexDemo {
 
 		String st2 = "zhangsanmmmmmjintianqqqqqqqzai@@@@@@@@gan1111111shengme";
 		// 这里的$1表示引用组1(.)
-		st2 = st2.replaceAll("(.)\\1+", "$1");
+		st2 = st2.replaceFirst("(.)\\1+", "$1");//replaceFirst 替换首次匹配,replaceAll 替换所有匹配。
+		//st2 = st2.replaceAll("(.)\\1+", "$1");
 		System.out.println(st2);
-
 		String st3 = "15100001111"; // 正常我们看到的是这样的151****1111
 		/*
 		 * String string3 = st3.replaceAll("(1[1-9]{2})(\\d)\\2+(\\d)\\3+",
